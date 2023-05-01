@@ -4,8 +4,8 @@
 *		Group: RD96						      				*
 *******************************************************************************/
 
-#ifndef __ILRD_RD96_SCOPE_LOCK_HPP__
-#define __ILRD_RD96_SCOPE_LOCK_HPP__
+#ifndef __SCOPE_LOCK_HPP__
+#define __SCOPE_LOCK_HPP__
 
 #include <util.hpp>
 
@@ -38,5 +38,5 @@ ScopeLock<MutexTypes>::~ScopeLock()
 }// end namespace ilrd
 
 
-#endif //__ILRD_RD96_SCOPE_LOCK_HPP__
+#endif //__SCOPE_LOCK_HPP__
 
