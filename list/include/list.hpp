@@ -4,8 +4,8 @@
 *		Author: Moshe Cohen 			      				                   *
 *******************************************************************************/
 
-#ifndef ILRD_RD96_LIST_HPP
-#define ILRD_RD96_LIST_HPP
+#ifndef LIST_HPP
+#define LIST_HPP
 
 #include <mutex>                                 // std::mutex
 
@@ -249,4 +249,4 @@ typename List<T, COMPARE>::Node *ListQuickPush<T, COMPARE>::FindMax() const
 }//end namespace ilrd
 
 
-#endif   //ILRD_RD96_LIST_HPP
+#endif   //LIST_HPP
