@@ -25,7 +25,7 @@ all:
 
 debug:
 	$(CC) $(CFLAGS) $(FILE_NAME) $(INCLUDES) -o bin/$(FILE)_debug.out
-	g++ -pedantic-errors -Wall -Wextra -g test_list.cpp -I include -lpthread -o bin/test_list_debug.exe
+	
 release:
 	$(CC) $(CFLAGS_RELEASE) $(FILE_NAME) $(INCLUDES) -o bin/$(FILE)_release.out
 

@@ -7,3 +7,6 @@
 /.pnp
 *.exe
 *.ini
+*~
+*out
+*.gz

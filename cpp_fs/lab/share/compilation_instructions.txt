@@ -1,0 +1,25 @@
+1. להפוך כל פונקציה לקובץ obj (אפשר לדלג - לא חובה)
+gcc -c foo.c -o foo.o
+gcc -c bla.c -o bla.o
+2. להפוך את קבצי הO (אולי לא חייב את שלב 1) לספריה דינאמית SO
+gcc -shared -fpic foo.o bla.o -o lib.so
+or
+gcc -shared -fpic foo.c bla.c -o lib.so
+3. לקמפל את הקובץ עם קובץ הmain שטוען דינאמית בזמן ריצה את הפונקציות מהספריה הדינאמית 
+gcc main_explicit_linking.c -ldl
+
+4. הרצה של קובץ הexecute
+./a.out
+
+
+*******************************
+because explicit_linking.c line 20 call SC dlsym with argv[1] ==> dlsym(handle, argv[1])
+run executable file like this:
+./a.out Foo =======> in cpp lib the symbal names are wird so we should check the name the function got - ex. _Z3Fooi
+or
+./a.out Bla
+
+
+implicit:
+compile: gd -shared -fpic bla.cpp foo.cpp -o lib.so
+         gd+ main_implicit.cpp lib.so -Wl,-rpath=$PWD

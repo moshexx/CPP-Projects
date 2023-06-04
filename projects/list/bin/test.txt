@@ -1,0 +1,13 @@
+[01;33mTest BasicTestPushList: [0m[01;32mSUCCESS[0m
+[01;33mTest BasicTestPopList: [0m[01;32mSUCCESS[0m
+Average time taken: Quick Push to a small list: [01;33m0[0m microseconds
+Average time taken: Quick Push to a big list [01;33m0[0m microseconds
+[01;33mTest EfficiencyTestQuickPush: [0m[01;32mSUCCESS[0m
+Average time taken: Quick Pop to a small list [01;33m0[0m microseconds
+Average time taken: Quick Pop to a big list [01;33m0[0m microseconds
+[01;33mTest EfficiencyTestQuickPop: [0m[01;32mSUCCESS[0m
+[01;33mTest ThreadSafeTestQuickPushList: [0m[01;32mSUCCESS[0m
+[01;33mTest ThreadSafeTestQuickPopList: [0m[01;32mSUCCESS[0m
+Average time taken: Slow Pop to a small list [01;31m1[0m microseconds
+Average time taken: Slow Pop to a big list [01;31m34[0m microseconds
+[0;32mThe test has completed.[0m

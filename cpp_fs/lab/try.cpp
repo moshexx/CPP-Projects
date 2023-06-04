@@ -1,0 +1,42 @@
+
+
+// CPP program to demonstrate  
+// Overloading new and delete operator  
+// for a specific class 
+#include<iostream> 
+#include<stdlib.h> 
+  
+using namespace std; 
+class student 
+{ 
+    string name; 
+    int age; 
+public: 
+    student() 
+    { 
+        cout<< "Constructor is called\n" ;  
+    } 
+    student(string name, int age) 
+    { 
+        this->name = name; 
+        this->age = age; 
+    } 
+    void display() 
+    { 
+        cout<< "Name:" << name << endl; 
+        cout<< "Age:" << age << endl; 
+    } 
+
+// private:
+    void * operator new(size_t size){ return NULL;}
+  
+    void operator delete(void * p) {};
+}; 
+  
+int main() 
+{ 
+    student * p = new student("Yash", 24); 
+    
+    // p->display(); 
+    // delete p; 
+} 

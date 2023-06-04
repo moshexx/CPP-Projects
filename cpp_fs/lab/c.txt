@@ -1,0 +1,14 @@
+PublicTransport::Ctor()1
+Minibus::Ctor()
+Minibus::wash(3) ID:1
+PublicTransport::Ctor()2
+Minibus::Ctor()
+print_info(int i)
+Minibus::display() ID:2 num seats:20
+PublicTransport::CCtor() 3
+Minibus::Dtor()
+PublicTransport::Dtor()2
+PublicTransport::display(): 3
+PublicTransport::Dtor()3
+Minibus::Dtor()
+PublicTransport::Dtor()1
