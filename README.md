@@ -1,6 +1,6 @@
 # C++-Projects
 
-This repository represents my continued journey into the realms of code, building upon the knowledge and experience gained from working extensively with C. Here, I delve deeper into more intricate logic, implementations with common **design patterns**, and harness the power of **concurrent programming**.
+This repository represents my continued journey into the realms of code, building upon the knowledge and experience gained from working extensively with C++. Here, I delve deeper into more intricate logic, implementations with common **design patterns**, and harness the power of **concurrent programming**.
 
 ## Core Features
 
